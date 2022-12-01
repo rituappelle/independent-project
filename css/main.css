@@ -108,6 +108,7 @@ header {
    display: grid;
    justify-content: center;
    gap: 2em;
+   padding: 
    grid-template-columns: 1fr;
 
 }
