@@ -21,3 +21,8 @@ body {
 img {
   width: 100%;
 }
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
