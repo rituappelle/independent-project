@@ -85,6 +85,7 @@ header {
 
 .speaker{
   background-color: #045252;
+  margin: 0;
 }
 
 .holding-container{
@@ -108,30 +109,96 @@ header {
    display: grid;
    justify-content: center;
    gap: 2em;
-   padding: 
+   padding: 4rem;
    grid-template-columns: 1fr;
 
 }
-
-.nav img{
+p {
+  margin: 0;
+}
+.header img{
   width: 100px;
   height:100px;
   align-content: center;
+
+}
+nav {
+
+}
+input.nav-toggle {
+  display: none;}
+
+}
+/* display the label in mobile that has our hamburgur menu  */
+label.nav-toggle-label {
+  display: block;
+}
+
+.speaker h1 {
+  color: #ffffff;
+  padding: 4rem;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
 input.nav-toggle {
   display: none;
 }
+
+  label.nav-toggle-label {
+    display: none;
+  }
 .container-grid {
    grid-template-columns: repeat(2, 1fr);
-   grid-template-rows: repeat(2, 1fr));
+
+}
+@media screen and (min-width: 1080px) {
+input.nav-toggle {
+  display: none;
 }
 
+  label.nav-toggle-label {
+    display: none;
+}
+.container-grid {
+   grid-template-columns: repeat(4, 1fr);
+   ;
+}
 
-label.nav-toggle-label {
-  display: none;
+.button-container-div {
+  weight: 100px;
+  height: 100px;
+  margin: 0;
+
+  display: grid;
+}
+
+button {
+  background-color: #045252;
+  color: #fff;
+  border: 1px solid;
+  padding: 10px;
+  width: 100px;
+  outline: none;
+  margin: auto;
+}
+button hover {
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #000000;
+}
+
 }
 nav {
   display: block;
+}
+footer {
+  background-color: #000000;
+
+}
+
+footer p {
+  color: #ffffff;
+  text-align: center;
 }
