@@ -123,6 +123,7 @@ p {
 
 }
 nav {
+  display:flex;
 
 }
 input.nav-toggle {
@@ -155,7 +156,24 @@ input.nav-toggle {
 }
 @media screen and (min-width: 1080px) {
 input.nav-toggle {
-  display: none;
+  display: none;}
+  .button-container-div {
+    weight: 100px;
+    height: 100px;
+    margin: 0;
+
+    display: grid;
+  }
+
+  button {
+    background-color: #045252;
+    color: #fff;
+    border: 1px solid;
+    padding: 10px;
+    width: 100px;
+    outline: none;
+    margin: auto;
+  }
 }
 
   label.nav-toggle-label {
