@@ -178,7 +178,7 @@ label.nav-toggle-label {
       grid-template-columns: repeat(4, 1fr);
       display: grid;
     }
-    
+
     button {
       background-color: #045252;
       color: #fff;
@@ -216,7 +216,7 @@ label.nav-toggle-label {
     margin: auto;
   }
 }
-button hover {
+button:hover {
   background-color: #ffffff;
   border-radius: 10px;
   color: #000000;
