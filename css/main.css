@@ -3,7 +3,7 @@
 html {
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
-  font-size: 18px;
+
 }
 
 *, *::before, *::after {
@@ -171,50 +171,15 @@ label.nav-toggle-label {
   input.nav-toggle {
     display: none;
   }
-    .button-container-div {
-      weight: 100px;
-      height: 100px;
-      margin: 0;
-      display: flex;
-    }
-    .container-grid {
-      grid-template-columns: repeat(4, 1fr);
-      display: grid;
-    }
-
-    button {
-      background-color: #045252;
-      color: #fff;
-      border: 1px solid;
-      padding: 10px;
-      width: 100px;
-      outline: none;
-      margin: auto;
-    }
+  .button-container-div {
+    weight: 100px;
+    height: 100px;
+    margin: 0;
+    display: flex;
   }
-
-  label.nav-toggle-label {
-    display: none;
-  }
-  /* .container-grid {
-    grid-template-columns: repeat(4, 1fr); */
-
-  }
-
-  /* .button-container-div {
-    /* weight: 100px;
-    height: 100px; */
-    /* margin: 0;
-    display: flex; */ */
-
-   }
-    .button-container-div {
-      weight: 100px;
-      height: 100px;
-      margin: 0;
-      display: flex;
-
-
+  .container-grid {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
   }
 
   button {
@@ -222,20 +187,55 @@ label.nav-toggle-label {
     color: #fff;
     border: 1px solid;
     padding: 10px;
-    width: 100px;ś
+    width: 100px;
     outline: none;
     margin: auto;
-    text-decoration: none;
-    transition-property: background-color,border-color,color;
-    transition-duration: .3s;
   }
-  a:visited {
-    color: white;
+}
 
-  }
-  a {
-    text-decoration: none;
-  }
+label.nav-toggle-label {
+  display: none;
+}
+/* .container-grid {
+grid-template-columns: repeat(4, 1fr); */
+
+}
+
+/* .button-container-div {
+/* weight: 100px;
+height: 100px; */
+/* margin: 0;
+display: flex; */ */
+
+}
+.button-container-div {
+  weight: 100px;
+  height: 100px;
+  margin: 0;
+  display: flex;
+
+
+}
+
+button {
+  background-color: #045252;
+  color: #fff;
+  border: 1px solid;
+  padding: 10px;
+  width: 100px;ś
+  outline: none;
+  margin: auto;
+  text-decoration: none;
+  transition-property: background-color,border-color,color;
+  transition-duration: .3s;
+}
+a:visited {
+  color: white;
+
+}
+a {
+  text-decoration: none;
+}
 
 button:hover {
   background-color: #000000;
