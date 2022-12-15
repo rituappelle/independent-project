@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
 }
 
 *, *::before, *::after {
@@ -168,11 +169,13 @@ label.nav-toggle-label {
 }
 @media screen and (min-width: 1080px) {
   input.nav-toggle {
-    display: none;}
+    display: none;
+  }
     .button-container-div {
       weight: 100px;
       height: 100px;
       margin: 0;
+      display: flex;
     }
     .container-grid {
       grid-template-columns: repeat(4, 1fr);
@@ -198,12 +201,18 @@ label.nav-toggle-label {
 
   }
 
-  .button-container-div {
+  /* .button-container-div {
     /* weight: 100px;
     height: 100px; */
-    margin: 0;
-    display: flex;
-    justify-content: center;
+    /* margin: 0;
+    display: flex; */ */
+
+   }
+    .button-container-div {
+      weight: 100px;
+      height: 100px;
+      margin: 0;
+      display: flex;
 
 
   }
